@@ -11,5 +11,10 @@ body{
     justify-content: center;
     margin-top: 80px;
     margin-bottom: 80px;
-    
+}
+header{
+font-size: 40px;
+color: red;
+border-bottom: 3px solid rgb(233, 32, 66);
+padding: 20px;
 }

@@ -5,6 +5,7 @@ body{
     margin: 0px;
     margin-bottom: 100px;
 }
+
 .chamada{
     background: white;
     display: flex;
@@ -12,36 +13,41 @@ body{
     margin-top: 80px;
     margin-bottom: 80px;
 }
+
 header{
-font-size: 40px;
-color: red;
-border-bottom: 3px solid rgb(233, 32, 66);
-padding: 20px;
+    font-size: 40px;
+    color: red;
+    border-bottom: 3px solid rgb(233, 32, 66);
+    padding: 20px;
 }
+
 h1{
     font-size: 35px;
 }
+
 .chamada-texto{
     margin-right: 5%;
 }
-    .categoria{
-        padding-left: 20px;
-        padding-right: 20px;
-        margin-top: 50px;
-    }
-    .categoria-videos{
-        overflow-x: auto;
-        display: flex;
-        gap: 10px;
-    }
 
-    .chamada-videos img{
-        height: 200px;
-        opacity: 0.5;
-    }
-    .categoria-videos img:hover{
-        opacity: 1.0;
-        border: 3px solid rgb(99, 99, 221);
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
 
-    }
-        
+.categoria-videos{
+    overflow-x: auto;
+    display: flex;
+    gap: 10px;
+}
+
+.chamada-videos img{
+    height: 200px;
+    opacity: 0.5;
+}
+
+.categoria-videos img:hover{
+    opacity: 1.0;
+    border: 3px solid rgb(99, 99, 221);
+
+}

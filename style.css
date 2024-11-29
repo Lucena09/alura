@@ -18,3 +18,9 @@ color: red;
 border-bottom: 3px solid rgb(233, 32, 66);
 padding: 20px;
 }
+h1{
+    font-size: 35px;
+}
+.chamada-texto{
+    margin-right: 5%;
+}
